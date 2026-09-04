@@ -6,6 +6,7 @@ public class Main {
         r.width = 6;
         r.height = 4;
 
-        System.out.println("rectangle " + r.width + "x" + r.height);
+        System.out.println("Area: " + r.area());
+        System.out.println("Perimeter: " + r.perimeter());
     }
 }
