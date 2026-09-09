@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Via original: " + original.area());
         System.out.println("Via copy: " + copy.area());
 
-        Rectangle empty = null;
-        System.out.println(empty.area());
+        Student s = new Student("Nadia", "S001", 3.8);
+        System.out.println(s.describe());
     }
 }
